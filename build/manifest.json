@@ -1,0 +1,31 @@
+{
+    "manifest_version": 3,
+    "name": "Negative Checker",
+    "description": "Censors out negative texts before sending them.",
+    "version": "1.0",
+    "icons": {
+        "32": "icons/32.png",
+        "48": "icons/48.png",
+        "96": "icons/96.png",
+        "128": "icons/128.png"
+    },
+    "content_scripts": [
+        {
+            "run_at": "document_end",
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "scripts/content.js"
+            ]
+        }
+    ],
+    "action": {
+        "default_popup": "popup/popup.html"
+    },
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "tabs"
+    ]
+}

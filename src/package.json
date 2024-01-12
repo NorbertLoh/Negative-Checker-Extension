@@ -1,0 +1,30 @@
+{
+  "name": "extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "background.js",
+  "scripts": {
+    "build": "webpack --config webpack.config.babel.js --mode production"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.19.6",
+    "@babel/plugin-syntax-top-level-await": "^7.14.5",
+    "@babel/register": "^7.18.9",
+    "@tensorflow-models/toxicity": "^1.2.2",
+    "@tensorflow/tfjs": "^4.0.0",
+    "@tensorflow/tfjs-node": "^4.0.0",
+    "aws-sdk": "^2.1246.0",
+    "fs": "^0.0.1-security",
+    "mock-aws-s3": "^4.0.2",
+    "nock": "^13.2.9",
+    "node-polyfill-webpack-plugin": "^2.0.1"
+  },
+  "devDependencies": {
+    "html-loader": "^4.2.0",
+    "terser-webpack-plugin": "^5.3.6",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
