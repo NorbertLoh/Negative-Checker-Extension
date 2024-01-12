@@ -1,8 +1,6 @@
 
 # NEGATIVITY CHECKER
 
-#### Video Demo: https://youtu.be/GznZDD_mpYo
-
 #### Description
 
 # Table of contents
