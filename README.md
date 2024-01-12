@@ -1,8 +1,6 @@
 
 # NEGATIVITY CHECKER
 
-#### Description
-
 # Table of contents
 * [About The Project](#about-the-project)
 * [Getting Started](#getting-started)
